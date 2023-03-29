@@ -11,7 +11,7 @@
     #medium, #large{
         display : none;
     } */
-    div{
+    .container{
         display: flex;
         flex-direction: column;
         font-size: 10px;
@@ -31,10 +31,10 @@
     #small, #large{
         display : none;
     }  */
-     body{
+    .container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
+        grid-auto-rows: 1fr ;
      }
     #small{
         grid-column: 2/3;
